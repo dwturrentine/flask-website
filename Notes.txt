@@ -1,0 +1,8 @@
+Passing Values into template from auth.py
+Can use python expressions in jinja templates
+Can write if statements and for loops
+
+<! -- {{ text }} {{user + "s" }} -->
+{% if boolean == True %}
+Yes it is True!
+{% endif %}
